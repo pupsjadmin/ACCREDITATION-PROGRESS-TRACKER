@@ -1,0 +1,50 @@
+/* Apply Poppins font */
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.program {
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #800000;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-weight: 400;
+}
+
+th {
+  background-color: #8000007c;
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
